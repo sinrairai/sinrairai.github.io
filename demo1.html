@@ -1,0 +1,44 @@
+<!DOCTYPE HTML> <!--kommentti, tagi määrittää html-version HTML5:ksi-->
+<html>
+    <head>
+        <title>demo 1</title>
+        <meta charset ="UTF-8">
+    </head>
+    <body>
+        <h1>Isoin otsikko</h1>
+        <h2>Toiseksi isoin otskikko </h2>
+        <h6>Pienin otsikko</h6>
+
+        <p>Tämä on teksti kappale, tag on p, tulee sanasta paragraph.</p>
+        <p>Toinen kappale jättää selvän välin edelliseen, <br> rivinvaihdon voi tehdä tagilla br, se tulee sanasta break</p>
+        <h2>Listat</h2>
+        <h3>Tavallinen lista</h3>
+        <p>Tavallisen listan alkutag on ul</p>
+        <ul>
+            <li>Ensimmäinen elementti, tag on li</li>
+            <li>Toinen elementti</li>
+        </ul>
+        <h3>Numeroitu lista</h3>
+        <p>Numeroidun listan alkutag on ol</p>
+        <ol>
+            <li>Eka elementti</li>
+            <li>Toka elementti</li>
+        </ol>
+        <h2>Linkkejä</h2>
+        <h3>Ulkoiset sivut</h3>
+        <p>Käytä koko url:ää</p>
+        <p>Linkki alkaa tagilla a (anchor), href (reference) kertoo, mihin linkki vie. Tagien väliin tulee se teksti, minkä lukija näkee. Jos haluat avata sivun toiselle väliledheddle, lisää target-attribuutti ja anna sen arvoksi _blank.</p>
+        <ul>
+            <li><a href="http://www.leeniemi.net" target="_blank">Leenan sivustolle</a></li>
+        </ul>
+
+        <h3>Linkki omille sivuille</h3>
+        <p>Linkit suhteellisina viitauksina.</p> 
+        <p>Jos sivu on samassa kansiossa, voit viitata siihen suoraan sen nimellä, esim. href ="sivu2.html"</p>
+        <p>Jos sivu on alikansiossa, viitataan polulla alikansioon, esim. a href ="./alikansio/sivu2.html"</p>
+        <p>Jos sivu on rinnakkaisessa kansiossa, polkuun tulee alkuviittaus ylöspäin, esim. a href ="../sivukansio/sivu3.html"</p>
+        <h3>Kuvat</h3>
+        <p>Kuva lisätään tagilla img. Pakollinen atribuutti on alt (alternative), johon kirjoitetaan vaihtoehto, jos kuva ei toimi. Toinen pakollinen on src (source), jossa kerrotaan mistä kuva löytyy.</p>
+        <p><img src="./kuvat/otus.jpg" alt ="otus"></p>
+    </body>
+</html>
